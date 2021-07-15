@@ -1,0 +1,652 @@
+:root{
+	--primario: #C0C2CB;
+	--secundario: #3D3E3E;
+	--primariooscuro: #543017;
+	--secundarioclaro: #DFA077;
+	--neutral: #103351;
+	--coloruno: #11A89D;
+}
+
+body{
+	margin: 0;
+	font-family: Roboto; sans-serif;
+}
+
+
+hr{
+	align-items: center;
+	width: 50%
+}
+
+
+
+
+/* Header */
+
+.ku-header{
+	background-color: var(--primario);
+}
+
+	.ku-header__img{
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right:auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+			.ku-header__nav{
+				list-style: none;
+				display: flex;
+				color: 
+			}
+					.ku-navlist{
+						color: var(--neutral);
+						display: block;
+						padding: 5px 15px;
+						text-decoration: none;
+						border-radius: 30px;
+						transition: background-color: 300ms;
+					}
+
+						.ku-navlist:hover{
+							background-color: #ffff;
+						}
+
+.activo{
+background-color: var(--secundarioclaro);
+}
+
+/*__________________*/
+
+
+
+
+
+/* Footer */
+
+.ku-footer{
+	background-color: var(--primario);
+}
+
+	.ku-footer__container{
+		display: flex;
+		max-width: 1170px;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1%;
+		padding-bottom: 1%
+	}
+
+		.ku-container__lugar{
+			justify-content: center;
+		}
+
+		.ku-container__rrss{
+			list-style: none;
+			display: flex;
+			width: 50%;
+		}
+
+			.ku-rrss{
+				text-decoration: none;
+				display: block;
+				padding: 5px 15px;
+			}
+
+.ku-flechaarriba{
+	padding:5px;
+	background-color: #000000;
+	background-color: var(--primario);
+	display: flex;
+	width: 4%;
+	justify-content: center;
+	margin-left: 90%;
+}
+
+/*__________________*/
+
+
+
+
+
+/* Página Index */
+
+
+
+.ku-bienvenido{
+	text-align: center; 
+	margin-top: 5%;
+	background-color: #DFA077;
+	width: 57%;
+	max-width: 57%;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.ku-imageninicial{
+	opacity: 85%;
+	text-align: center;
+}
+
+.textinicio{
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: var(--coloruno);
+	font-size: 22px;
+}
+
+
+
+
+
+
+		/* Servicios */
+
+		.ku-serviciostitulo{
+			text-align: center;
+			color: var(--neutral);
+		}
+
+		.ku-servicios__bloque{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+			.servibloque__uno{
+				width: 40%;
+				color: #543017;
+				font-size: 25px;
+			}
+
+			.servibloque__dos{
+				color: #543017;
+				font-size: 25px;
+			}
+
+
+		/*__________________*/
+
+
+		/* Competencias */
+
+		.ku-competenciastitulo{
+			text-align: center;
+			color: var(--neutral);
+		}
+
+		.ku-competencias__bloque{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.competenbloque__uno{
+			width: 22%;
+			text-align: center;
+			color: #543017;
+			font-size: 25px;
+		}
+
+		.competenbloque__dos{
+			width: 22%;
+			text-align: center;
+			color: #543017;
+			font-size: 25px;
+		}
+
+		.competenbloque__tres{
+			text-align: center;
+			width: 22%;
+			color: #543017;
+			font-size: 25px;
+		}
+
+
+
+		/*__________________*/
+
+
+
+/*__________________*/
+
+
+
+
+
+
+/* Página Sobre Mi */
+
+
+
+
+.ku-sobremi__titulo{
+	text-align: center; 
+	margin-top: 5%;
+	background-color: #DFA077;
+	width: 57%;
+	max-width: 57%;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.ku-bannerpersonal{
+	opacity: 85%;
+	text-align: center;
+}
+
+
+
+
+
+.ku-informacion__titulo{
+	text-align: left;
+	margin-left: 25%
+}
+
+.ku-informacion__bloque{
+	display: flex;
+	align-items: center; 
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	width: 50%;
+}
+		.informacion__texto{
+			padding-right: 5%;
+			text-align: center;
+		}
+
+		.informacion__img{
+			max-width: 90%;
+			margin-right: 80%;
+		}
+
+
+.ku-hobbies__titulo{
+	text-align: right;
+	margin-right: 25%
+}
+
+.ku-hobbies__bloque{
+	display: flex;
+	align-items: center; 
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	width: 50%
+}
+
+		.hobbies__texto{
+			padding-left: 8%;
+			text-align: center;
+		}
+
+		.hobbies__img{
+			max-width: 120%;
+			
+		}
+
+.ku-habilidades__titulo{
+	text-align: left;
+	margin-left: 25%
+}
+
+.ku-habilidades__bloque{
+	display: flex;
+	align-items: center; 
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+}
+		.habilidades__texto{
+			text-align: center;
+		}
+
+		.habilidades__img{
+			width: 70%;
+		}
+
+
+.ku-visionmeta{
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+}
+
+		.visionmeta__vision{
+			text-align: center;
+			padding-right:2%; 
+		}
+
+		.visionmeta__meta{
+			text-align: center;
+			padding-left: 2%;
+		}
+
+
+.ku-programas__titulo{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 3%;
+}
+
+		.bloqprogram__uno{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+
+		.bloqprogram__dos{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+
+
+.ku-cv__titulo{
+	text-align: center;
+}
+
+		.cv__container{
+			display: flex;
+			text-align: center;
+			justify-content: center;
+		}
+
+		.cv_texto{
+			font-size: %;
+		}
+
+		.cv_link{
+			background-color: var(--primario);
+			text-decoration: none;
+		}
+
+/*__________________*/
+
+
+
+
+
+
+
+
+/* Página Experiencia laboral */
+
+
+
+.ku-sobremi__titulo{
+	text-align: center; 
+	margin-top: 5%;
+	background-color: #DFA077;
+	width: 57%;
+	max-width: 57%;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.ku-bannerpersonal{
+	opacity: 85%;
+	text-align: center;
+}
+
+
+
+.ku-explaboral__titulo{
+	text-align: left;
+	margin-left: 25%
+}
+
+
+.ku-expactual__bloque{
+	display: flex;
+	align-items: center; 
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	width: 50%;
+	text-align: center;
+}
+		.expactual__texto{
+			padding-left: 5%;
+			text-align: center;
+		}
+
+		.expactual__img{
+		}
+
+.ku-expcarrera__titulo{
+	text-align: left;
+	margin-left: 25%
+}
+
+	.ku-expcarrera__bloque{
+		display: flex;
+		align-items: center; 
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+		width: 50%;
+		text-align: center;
+
+	}
+			.expcarrerabloque__uno{
+			padding-right: 5%;
+			}
+
+			.expcarrerabloque__dos{
+			padding-left: 5%;
+			}
+
+	.ku-expcarrera__bloqueop{
+		display: flex;
+		align-items: center;
+		margin-right: auto;
+		margin-left: auto;
+		justify-content: center;
+		width: 30%;	
+		text-align: center;
+	}
+
+
+
+
+.ku-comienzo__titulo{
+	text-align: left;
+	margin-left: 25%
+}
+
+	.ku-comienzo__bloque{
+		display: flex;
+		align-items: center; 
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+		width: 50%;
+		text-align: center;
+	}
+
+		.comienzobloque__uno{
+		padding-right: 5%;
+		}
+
+		.comienzobloque__dos{
+		padding-left: 5%;
+		}
+
+
+.ku-comienzoopc__bloque{
+	display: flex;
+	align-items: center; 
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	width: 50%;
+	text-align: center;
+}
+	
+	.comienzoopc_uno{
+		padding-right: 15%;
+	}
+
+	.comienzoopc_dos{
+		padding-left: 15%;
+	}
+
+
+
+/*__________________*/
+
+
+
+
+/* Página logros */
+
+
+.ku-logros__titulo{
+	text-align: center; 
+	margin-top: 5%;
+	background-color: #DFA077;
+	width: 57%;
+	max-width: 57%;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.ku-bannerlogros{
+	opacity: 85%;
+	text-align: center;
+}
+
+
+
+
+.ku-evento{
+	display: box;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.evento__titulo{
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+
+
+
+
+.ku-manejo{
+	display: box;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.manejo__titulo{
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+
+
+
+.ku-apoyo{
+	display: box;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.apoyo__titulo{
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+
+
+.ku-ig{
+	display: box;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.ig__titulo{
+		margin-bottom: 2%;
+		margin-top: 5%;
+	}
+
+		.ku-fotosig{
+			display: flex;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			width: 50%;
+			justify-content: center;
+			align-items: center;
+		}
+				
+
+
+
+
+
+
+/*__________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*__________________*/
