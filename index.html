@@ -8,11 +8,17 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	</head>
 
 
 
 	<body>
+
+
+
 		<header class="ku-header">
 			<div class="ku-header__img">
 				<a href="index.html" name="cabecera">
@@ -32,26 +38,49 @@
 		
 	<main>
 
+
+
+
+
+
+
 			<div class="ku-bienvenido">
 				<h1 class="ku-bienvenido__titulo">BIENVENIDOS A MI PORTAFOLIO</h1>
 			</div>
-			<section class="ku-imageninicial">
-				<img src="images/asd1.jpg" alt="kevin">
-			</section>
 
-</br>	
 
-			<section class="textinicio">
+		<div class="slideshow">
+		  <div class="imagen1">
+		  	<img src="images/asd1.jpg" alt="Kevin1">
+		  </div>
+		  <div class="imagen1">
+		  	<img src="images/asd2.png" alt="Kevin2">
+		  </div>
+		  <div class="imagen1">
+		  	<img src="images/asd3.png" alt="Kevin3">
+		  </div>
+		</div>
+
+
+
+
+
+			<section class="ku-textinicio">
+				<h2 class="ku-textinicio__nombre">Kevin Eduardo Usnayo Navarro</h2>
 				<p>En esta web podrás saber de mi, de mis experiencias labores y logros.</p>
 				<p>Con la finalidad de que puedas contactarme y pueda resolver todas las consultas que tengas con respecto a mi información.</p>
 			</section>
-		</br>
-			<hr size="5px" color= "#9FAEC2" />
-		</br>
+
+
+
+			<hr>
+
+
+
 
 			<h1 class="ku-serviciostitulo">SERVICIOS</h1>
 
-</br>
+
 
 			<div class="ku-servicios__bloque">
 				<div class="servibloque__uno">
@@ -64,6 +93,9 @@
 					</nav>
 				</div>
 
+
+
+
 				<div class="servibloque__dos">
 					<nav>
 						<ul>
@@ -74,44 +106,70 @@
 					</nav>
 				</div>
 			</div>
-		</br>
-			<hr size="5px" color= "#9FAEC2" />
-		</br>
+
+
+
+			<hr>
+
+
+
 
 			<h1 class="ku-competenciastitulo">COMPETENCIAS</h1>
 
-		</br>
+
+
 
 			<section class="ku-competencias__bloque">
 				<div class="competenbloque__uno">
-					<img src="images/liderazgo.svg" alt="Liderazgo">
-					<p>Liderazgo</p>
-						</br>
-					<img src="images/analitico.svg" alt="Analítico">
-					<p>Analítico</p>
-						</br>
+					<div>
+						<img src="images/liderazgo.svg" alt="Liderazgo">
+						<h2>Liderazgo</h2>						
+					</div>
+					<div>
+						<img src="images/analitico.svg" alt="Analítico">
+						<h2>Analítico</h2>						
+					</div>
 				</div>
 
 				<div class="competenbloque__dos">
+					<div>
 					<img src="images/responsable.svg" alt="Responsable">
-					<p>Responsable</p>
-						</br>
+					<h2>Responsable</h2>						
+					</div>
+					<div>
 					<img src="images/comunicativo.svg" alt="Comunicativo">
-					<p>Comunicativo</p>
-						</br>
+					<h2>Comunicativo</h2>						
+					</div>
 				</div>
 
 				<div class="competenbloque__tres">
+					<div>
 					<img src="images/trabajoequipo.svg" alt="Trabajo en equipo">
-					<p>Trabajo en equipo</p>
-						</br>
+					<h2>Trabajo en equipo</h2>						
+					</div>
+					<div>
 					<img src="images/proactivo.svg" alt="Proactivo">
-					<p>Proactivo</p>
-						</br>
+					<h2>Proactivo</h2>						
+					</div>
 				</div>
 			</section>
 
-		</br>
+
+			<hr>
+
+
+			<section class="ku-trabajovideo">
+				<h2 class="ku-trabajovideo__titulo">VIDEO TRABAJO</h2>
+				<p class="ku-trabajovideo__texto">Video realizado en la casa de reposo "Divino Amanecer" como trabajo para la universidad. Se realizó una pequeña investigación sobre las casas de resposo para los adultos mayores en donde me encargué de la grabación y de la edición para el curso de Ciudadanía y reflexión etica. </p>
+				<a data-fancybox="video-gallery" data-src="https://www.https://www.youtube.com/watch?v=9wawEcgharg">
+  				<img src="images/divino.jpg" alt="Divino Amanecer" width="400" height="300" />
+				</a>
+
+			</section>
+			<section class="ku-vervideo">
+				<a data-fancybox="video-gallery" data-src="https://www.https://www.youtube.com/watch?v=9wawEcgharg">VER VIDEO</a>
+			</section>
+
 
 			<div class="ku-flechaarriba">
 				<a href="#cabecera">
@@ -129,24 +187,27 @@
 
 
 
-	<footer class="ku-footer">
-		<div class="ku-footer__container">
-			<a href="index.html">
-			<img src="images/mono.png" alt="Keun" width="150px">
-			</a>
-			<p class="ku-footerlugar">Lima-Perú-2021</p>
-			<nav>
-					<ul class="ku-container__rrss">
+<footer class="ku-footer">
+	<div class="ku-footer__container">
+		<a href="index.html">
+		<img src="images/mono.png" alt="Keun" width="150">
+		</a>
+		<p class="ku-footerlugar">Lima-Perú-2021</p>
+		<nav>
+				<ul class="ku-container__rrss">
 						<Li><a href="https://www.facebook.com" target="_blank" class="ku-rrss"><img src="images/facebook.png" alt="Facebook"></a></LI>
 						<li><a href="https://www.facebook.com/messages/new" target="_blank" class="ku-rrss"><img src="images/messenger.png" alt="Messenger"></a></li>
 						<li><a href="https://https://www.instagram.com/" target="_blank" class="ku-rrss"><img src="images/instagram.png" alt="Instagram"></a></li>
-						<li><a href="https://www.gmail.com" target="_blank" class="ku-rrss"><img src="images/gmail.png" alt="Gmail"></a></li>>
+						<li><a href="https://www.gmail.com" target="_blank" class="ku-rrss"><img src="images/gmail.png" alt="Gmail"></a></li>
 					</ul>
-				</nav>
-		</div>
+		</nav>
+	</div>
+</footer>
 
-	</footer>
-
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 </html>
 
